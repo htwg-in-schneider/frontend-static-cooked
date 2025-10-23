@@ -52,4 +52,3 @@ Um den Inhalt des Ordners "public" nach jedem Commit automatisch als statische W
     ```
 
 3. Committen Sie die Datei. Nach kurzer Zeit können Sie die unter ["Settings / Pages"](../../settings/pages) veröffentlichte URL der GitHub Page besuchen und sehen dort den Inhalt des Ordners public.
-TEST
