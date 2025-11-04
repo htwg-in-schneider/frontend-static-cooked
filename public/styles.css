@@ -172,14 +172,13 @@ body {
   box-shadow: 0 4px 0 rgba(0, 0, 0, 0.06);
 }
 
-/* Call To Action button */
+/* Call To Action – im Fluss unter dem Subtext */
 .cta-float{
-  position: absolute;
-  left: clamp(16px, 5vw, 60px);
-  bottom: 180px;                
-  z-index: 3;
+  position: static;          
+  left:auto; bottom:auto;
+  display:inline-block;
 
-  display: inline-block;
+  margin-left: 60px;
   padding: 12px 28px;
   border-radius: 999px;
   border: 3px solid var(--olive-500);
@@ -195,6 +194,15 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 14px 32px rgba(0,0,0,.2);
   border-color: #81801f;
+}
+
+/* Mobile: Button zentrieren */
+@media (max-width: 991.98px){
+  .cta-float{
+    display:block;
+    margin: 20px auto 0;   
+    text-align:center;
+  }
 }
 
 /* Responsive */
